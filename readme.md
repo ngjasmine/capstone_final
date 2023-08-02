@@ -11,7 +11,6 @@
 - [Impact](#impact)
 - [Future Work](#future-work)
 
-
 ## Background
 * Did you know that Singapore has a total of [525 km of cycling paths](https://www.lta.gov.sg/content/ltagov/en/getting_around/active_mobility/walking_cycling_infrastructure/cycling.html) today (Aug 2023)? And that this is set to increase by fourfold by 2030, to 1,300 km?
 
@@ -26,7 +25,7 @@ The Singapore government is building the necessary infrastructure to encourage c
 
 ### Proposed solution
 
-	Build a tool predicting road bike prices category from user-input values
+    Build a tool predicting road bike prices category from user-input text values
 
 
 ## Data Scraping
@@ -106,7 +105,7 @@ Pycaret was used for modelling.
 ![](images/roc.png)
 
 ## Demo
-A streamlit demo of this project can be found [here](https://www.)
+![](images/streamlit.png)
 
 ## Key Insights
 ![](images/key_insights.png)
