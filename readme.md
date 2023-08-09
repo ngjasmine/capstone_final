@@ -1,4 +1,4 @@
-# DSI37 Capstone Project: 
+# Riding the Data Trail: Text-Based Price Classifier for Road Bikes on Carousell
 ![](images/title.png)
 
 ## Table of Contents
@@ -25,7 +25,7 @@ The Singapore government is building the necessary infrastructure to encourage c
 
 ### Proposed solution
 
-    Build a tool predicting road bike prices category from user-input text values
+> Build a tool predicting road bike prices category from user-input text values
 
 
 ## Data Scraping
@@ -85,8 +85,8 @@ Data scraping from Carousell was carried out using Beautiful Soup and Selenium l
 1. Identify columns and create a new dataframe to send into model
 2. Use BERTopic for topic identification  
     a) Obtain top 10 words for each topic and append to dataframe  
-3. Narrow down dataframe to listings up to $2000  
-4. Feature engineer ‘price’:  
+3. Narrow down dataframe to listings **up to $2000**  
+4. Feature engineer classes for `price`:  
     a) Low ($0 - $600) - Class 0  
     b) Med ($601 - $1200) - Class 1  
     c) High ($1201 - $2000) - Class 2
@@ -105,6 +105,7 @@ Pycaret was used for modelling.
 ![](images/roc.png)
 
 ## Demo
+### Try out the streamlit demo [here](https://riding-the-data-trail-bicycle-price-classifier.streamlit.app/)!
 ![](images/streamlit.png)
 
 ## Key Insights
